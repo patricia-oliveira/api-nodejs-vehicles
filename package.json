@@ -1,18 +1,19 @@
 {
-  "name": "api-rest",
+  "name": "api-rest-veiculos",
   "version": "1.0.0",
-  "description": "desenvolvimento da minha primeira API Rest",
-  "main": "src/app.js",
+  "description": "serviço para cadastrar veículos",
+  "main": "node src/app.js",
   "scripts": {
-    "start": "node src/app.js",
+    "start": "node src/app.js", 
     "dev": "nodemon src/app.js"
   },
-  "keywords": [],
   "author": "Patrícia Oliveira",
   "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
   "dependencies": {
     "body-parser": "^1.20.1",
-    "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "sqlite3": "^5.1.4",
