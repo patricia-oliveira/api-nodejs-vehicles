@@ -3,9 +3,6 @@ Nesta aplicação foram implementadas as seguintes funcionalidades: cadastro de 
 
 ## Getting started
 
-
-      $ sudo apt install nodejs
-      $ sudo apt install npm
 - Clone the repository
 ```bash
 git clone  git@github.com:patricia-oliveira/api-nodejs-vehicles.git
